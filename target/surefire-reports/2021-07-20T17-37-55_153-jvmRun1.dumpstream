@@ -1,0 +1,100 @@
+# Created at 2021-07-20T17:39:55.117
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2021-07-20T17:39:56.972
+Unexpected IOException with stream:   Given User is on application login screen                                # stepDefinitions.LoginPageSteps.user_is_on_application_login_screen()
+
+
+# Created at 2021-07-20T17:39:57.168
+Unexpected IOException with stream:   When User enters username as "ak2058546@gmail.com"                       # stepDefinitions.LoginPageSteps.user_enters_username_as(java.lang.String)
+
+
+# Created at 2021-07-20T17:39:57.412
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHNANI', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d67ed2c93ae62256673486c9a1656a8
+*** Element info: {Using=id, value=username}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at javaPageClasses.LoginPage.enterUsername(LoginPage.java:27)
+	at stepDefinitions.LoginPageSteps.user_enters_username_as(LoginPageSteps.java:22)
+	at âœ½.User enters username as "ak2058546@gmail.com"(file:///C:/Anil/CucumberFrameworkSeries/src/test/resources/features/LoginPage2.feature:6)
+
+
+
+# Created at 2021-07-20T17:39:57.426
+Unexpected IOException with stream:   And User enters password as "anil123"                                    # stepDefinitions.LoginPageSteps.user_enters_password_as(java.lang.String)
+
+
+# Created at 2021-07-20T17:39:57.434
+Unexpected IOException with stream:   And User clicks on login button                                          # stepDefinitions.LoginPageSteps.user_clicks_on_login_button()
+
+
+# Created at 2021-07-20T17:39:57.444
+Unexpected IOException with stream:   Then User is logged in successfully and "ak2058646@gmail.com" is visible # stepDefinitions.LoginPageSteps.user_is_logged_in_successfully_and_is_visible(java.lang.String)
+
+
+# Created at 2021-07-20T17:39:57.467
+Unexpected IOException with stream:       org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=91.0.4472.124)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MOHNANI', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 91.0.4472.124, chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870..., userDataDir: C:\Users\AnilY\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4d67ed2c93ae62256673486c9a1656a8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at appHooks.Hooks.takeScreenshot(Hooks.java:46)
+
+
+
+# Created at 2021-07-20T17:40:00.328
+Unexpected IOException: 7,1,Login Page Functionality Test #2,User logs in successfully with valid credentials(Login Page Functionality Test #2),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8\000A*** Element info: {Using=id\002C value=username},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8\000A*** Element info: {Using=id\002C value=username},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8\000A*** Element info: {Using=id\002C value=username},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8\000A*** Element info: {Using=id\002C value=username}\000A
+
+
+# Created at 2021-07-20T17:40:00.334
+Unexpected IOException: 7,1,Login Page Functionality Test #2,User logs in successfully with valid credentials(Login Page Functionality Test #2),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=91.0.4472.124)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'MOHNANI'\002C ip: '192.168.99.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.5'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 91.0.4472.124\002C chrome: {chromedriverVersion: 91.0.4472.101 (af52a90bf870...\002C userDataDir: C:\005CUsers\005CAnilY\005CAppData\005CLoca...}\002C goog:chromeOptions: {debuggerAddress: localhost:59253}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 4d67ed2c93ae62256673486c9a1656a8\000A
+
+
+# Created at 2021-07-20T17:40:02.400
+Unexpected IOException: 7,1,testRunner.RunnerTest,testRunner.RunnerTest,null,org.apache.pdfbox.pdmodel.font.PDType0Font.load(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;,null,org.apache.pdfbox.pdmodel.font.PDType0Font.load(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;,RunnerTest.testRunner.RunnerTest \00BB NoSuchMethod org.apache.pdfbox.pdmodel.font...,java.lang.NoSuchMethodError: org.apache.pdfbox.pdmodel.font.PDType0Font.load(Lorg/apache/pdfbox/pdmodel/PDDocument;Ljava/io/InputStream;)Lorg/apache/pdfbox/pdmodel/font/PDType0Font;\000A
+
+
+# Created at 2021-07-20T17:40:02.403
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,testRunner.RunnerTest,null,null,null
+
+
