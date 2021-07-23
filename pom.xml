@@ -100,9 +100,9 @@
 							<goal>verify</goal>
 						</goals>
 						<configuration>
-							<includes>
+							<!-- <includes>
 								<include>**/RunnerTest.java</include>
-							</includes>
+							</includes> -->
 							<parallel>methods</parallel>
 							<threadCount>4</threadCount>
 							<perCoreThreadCount>true</perCoreThreadCount>
