@@ -9,6 +9,6 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = { "src//test//resources//features" }, glue = { "stepDefinitions", "appHooks" }, plugin = {
 		"pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 		"timeline:test-output-thread/" }/* , monochrome = true, publish = true */)
-public class RunnerTest {
+public class RunnerTestIT {
 
 }
